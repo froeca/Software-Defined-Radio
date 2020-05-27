@@ -6,6 +6,8 @@ This repository covers the design of a simple, low-cost software defined radio (
 
 The goal of software defined radios are to shift the focus of radio communication from analog devices to digital solutions. By taking components that have been traditionally implemented in hardware and implementing them by means of software on a personal computer or embedded system, an SDR offers a number of benefits including cheaper and simpler radios and ability to alter functionality at will. 
 
+(more theory)
+
 My project partner, Konrad McClure, and I, had several objectives in mind when designing our radio receiver. They are as follows:
 
 ### Design Objectives:
@@ -14,6 +16,10 @@ My project partner, Konrad McClure, and I, had several objectives in mind when d
 3. Low noise figure.
 4. Inexpensive to construct.
 5. Simple design.
+
+We designed our reciever to operate in the (5.000 - 10.000 MHz) band. This band was chosen because it is centered around the "40-meter" Ametuar Radio band which supports communication worldwide and is considered one of the most reliable all-season long distance communication bands. We also noticed by experimenting with an online SDR radio that there seemed to be a substantial number of stations avalible in that band. For simplicity sake, we kept the design to just one receiving freqeuncy band.
+
+We chooe our intermediate frequency to be 10.7kHz. This is a pretty standard value
 
 ## Hardware
 A block diagram of our SDR reciever is shown below in Figure 1:
