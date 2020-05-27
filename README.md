@@ -11,7 +11,9 @@ My project partner, Konrad McClure, and I, had several objectives in mind when d
 ### Design Objectives:
 1. Minimum discernible signal less than 1 uV.
 2. Good image rejection.
-3. Inexpensive to construct.
+3. Low noise figure.
+4. Inexpensive to construct.
+5. Simple design.
 
 ## Hardware
 A block diagram of our SDR reciever is shown below in Figure 1:
