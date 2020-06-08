@@ -861,12 +861,12 @@ $EndComp
 Wire Wire Line
 	5650 1400 5650 1300
 $Comp
-L Froelich_Reciever-rescue:INA821ID-INA821ID-Froelich_Reciever(2)-rescue-Froelich_Reciever(3a)-rescue U4
+L INA821ID:INA821ID U4
 U 1 1 5EA0F48A
 P 5750 3275
 F 0 "U4" H 5600 3350 50  0000 L CNN
 F 1 "INA821ID" H 5500 3250 50  0000 L CNN
-F 2 "INA821ID:SOIC127P600X175-8N" H 5750 3275 50  0001 L BNN
+F 2 "Imported_Footprints:INA821ID" H 5750 3275 50  0001 L BNN
 F 3 "B" H 5750 3275 50  0001 L BNN
 F 4 "1.75mm" H 5750 3275 50  0001 L BNN "Field4"
 F 5 "Texas Instruments" H 5750 3275 50  0001 L BNN "Field5"
@@ -901,12 +901,12 @@ F 3 "~" H 6200 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Froelich_Reciever-rescue:INA821ID-INA821ID-Froelich_Reciever(2)-rescue-Froelich_Reciever(3a)-rescue U1
+L INA821ID:INA821ID U1
 U 1 1 5EA20136
 P 5750 1800
 F 0 "U1" H 5600 1875 50  0000 L CNN
 F 1 "INA821ID" H 5500 1775 50  0000 L CNN
-F 2 "INA821ID:SOIC127P600X175-8N" H 5750 1800 50  0001 L BNN
+F 2 "Imported_Footprints:INA821ID" H 5750 1800 50  0001 L BNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina821" H 5750 1800 50  0001 L BNN
 F 4 "1.75mm" H 5750 1800 50  0001 L BNN "Field4"
 F 5 "Texas Instruments" H 5750 1800 50  0001 L BNN "Field5"
@@ -1320,12 +1320,12 @@ Wire Wire Line
 Wire Wire Line
 	6075 2800 6175 2800
 $Comp
-L Froelich_Reciever-rescue:OP213FPZ-OPA213FPZ-Froelich_Reciever(2)-rescue-Froelich_Reciever(3a)-rescue U3
+L OPA213FPZ:OP213FPZ U3
 U 1 1 5F1303F2
 P 8050 2325
 F 0 "U3" H 8600 2375 60  0000 C CNN
 F 1 "OP213FPZ" H 8600 2275 60  0000 C CNN
-F 2 "footprints:OP213FPZ" H 8525 2625 60  0001 C CNN
+F 2 "Imported_Footprints:OP213" H 8525 2625 60  0001 C CNN
 F 3 "" H 7700 3550 60  0000 C CNN
 	1    8050 2325
 	1    0    0    -1  
@@ -1701,7 +1701,7 @@ F 3 "~" H 8100 3650 50  0001 C CNN
 $EndComp
 Connection ~ 7900 3650
 $Comp
-L Froelich_Reciever-rescue:+4.3V-+4.3v-Froelich_Reciever(2)-rescue-Froelich_Reciever(3a)-rescue #PWR029
+L +4.3v:+4.3V #PWR029
 U 1 1 5F592F24
 P 8375 4275
 F 0 "#PWR029" H 8375 4125 50  0001 C CNN
@@ -1713,7 +1713,7 @@ F 3 "" H 8375 4275 50  0001 C CNN
 $EndComp
 Connection ~ 8375 4275
 $Comp
-L Froelich_Reciever-rescue:+4.3V-+4.3v-Froelich_Reciever(2)-rescue-Froelich_Reciever(3a)-rescue #PWR08
+L +4.3v:+4.3V #PWR08
 U 1 1 5F5D657A
 P 8250 1850
 F 0 "#PWR08" H 8250 1700 50  0001 C CNN
@@ -1735,7 +1735,7 @@ F 3 "" H 5650 1175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Froelich_Reciever-rescue:+4.3V-+4.3v-Froelich_Reciever(2)-rescue-Froelich_Reciever(3a)-rescue #PWR015
+L +4.3v:+4.3V #PWR015
 U 1 1 5F5D76E3
 P 5650 2675
 F 0 "#PWR015" H 5650 2525 50  0001 C CNN
@@ -1746,7 +1746,7 @@ F 3 "" H 5650 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Froelich_Reciever-rescue:+4.3V-+4.3v-Froelich_Reciever(2)-rescue-Froelich_Reciever(3a)-rescue #PWR02
+L +4.3v:+4.3V #PWR02
 U 1 1 5F5D7CA0
 P 2650 825
 F 0 "#PWR02" H 2650 675 50  0001 C CNN
@@ -1771,7 +1771,7 @@ F 3 "~" H 8150 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Froelich_Reciever-rescue:+4.3V-+4.3v-Froelich_Reciever(2)-rescue-Froelich_Reciever(3a)-rescue #PWR01
+L +4.3v:+4.3V #PWR01
 U 1 1 5F5F3DDC
 P 1700 825
 F 0 "#PWR01" H 1700 675 50  0001 C CNN
@@ -2110,17 +2110,6 @@ Wire Wire Line
 	9600 4475 9600 4925
 Wire Wire Line
 	10325 4375 10325 4925
-$Comp
-L power:+5V #PWR0102
-U 1 1 5EEE85B2
-P 9850 4050
-F 0 "#PWR0102" H 9850 3900 50  0001 C CNN
-F 1 "+5V" H 9865 4223 50  0000 C CNN
-F 2 "" H 9850 4050 50  0001 C CNN
-F 3 "" H 9850 4050 50  0001 C CNN
-	1    9850 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9850 4075 9850 4050
 Wire Wire Line
@@ -2256,4 +2245,15 @@ F 3 "" H 5750 4975 50  0001 C CNN
 $EndComp
 Text Notes 3350 1150 0    50   ~ 0
 J18 and J19 used to test and \nset desired gain.
+$Comp
+L +4.3v:+4.3V #PWR0102
+U 1 1 5EE28BB2
+P 9850 4050
+F 0 "#PWR0102" H 9850 3900 50  0001 C CNN
+F 1 "+4.3V" H 9865 4223 50  0000 C CNN
+F 2 "" H 9850 4050 50  0001 C CNN
+F 3 "" H 9850 4050 50  0001 C CNN
+	1    9850 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
