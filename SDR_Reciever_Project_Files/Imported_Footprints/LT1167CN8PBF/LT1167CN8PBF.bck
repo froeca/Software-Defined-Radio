@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LS153
+D Dual Multiplexer 4 to 1
+K TTL Mux4
+F http://www.ti.com/lit/gpn/sn74LS153
+$ENDCMP
+#
+$CMP LT1167CN8PBF
+F lt1167cn8#pbf
+$ENDCMP
+#
+#End Doc Library

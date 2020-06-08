@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# INA821ID
+#
+DEF INA821ID U 0 40 Y N 1 L N
+F0 "U" 200 125 50 H V L BNN
+F1 "INA821ID" 200 -200 50 H V L BNN
+F2 "SOIC127P600X175-8N" 0 0 50 H I L BNN
+F3 "B" 0 0 50 H I L BNN
+F4 "1.75mm" 0 0 50 H I L BNN
+F5 "Texas Instruments" 0 0 50 H I L BNN
+F6 "IPC-7351B" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -300 300 -300 -300 N
+P 2 0 0 16 -300 -300 300 0 N
+P 2 0 0 16 300 0 -300 300 N
+P 2 0 0 6 -250 225 -250 175 N
+P 2 0 0 6 -275 200 -225 200 N
+P 2 0 0 6 -275 -200 -225 -200 N
+T 900 -60 205 32 0 0 0 +VS Normal 0 L B
+T 900 -60 -285 32 0 0 0 -VS Normal 0 L B
+T 0 -375 110 32 0 0 0 RG Normal 0 L B
+T 0 -385 -90 32 0 0 0 RG Normal 0 L B
+T 900 150 -205 32 0 0 0 REF Normal 0 L B
+X -IN 1 -400 -200 100 R 40 40 0 0 I 
+X +IN 4 -400 200 100 R 40 40 0 0 I 
+X OUT 7 400 0 100 L 40 40 0 0 O 
+X +VS 8 -100 400 200 D 40 40 0 0 W 
+X -VS 5 -100 -400 200 U 40 40 0 0 W 
+X RG 2 -400 100 100 R 40 40 0 0 P 
+X RG1 3 -400 -100 100 R 40 40 0 0 P 
+X REF 6 100 -300 200 U 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library

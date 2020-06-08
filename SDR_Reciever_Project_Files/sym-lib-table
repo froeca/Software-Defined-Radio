@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "Froelich_Reciever(3a)-rescue")(type Legacy)(uri "${KIPRJMOD}/Froelich_Reciever(3a)-rescue.lib")(options "")(descr ""))
+  (lib (name Froelich_Reciever-rescue)(type Legacy)(uri ${KIPRJMOD}/Froelich_Reciever-rescue.lib)(options "")(descr ""))
+  (lib (name +4.3v)(type Legacy)(uri ${KIPRJMOD}/Imported_Symbols/+4.3v.lib)(options "")(descr ""))
+  (lib (name INA821ID)(type Legacy)(uri ${KIPRJMOD}/Imported_Symbols/INA821ID.lib)(options "")(descr ""))
+  (lib (name OPA213FPZ)(type Legacy)(uri ${KIPRJMOD}/Imported_Symbols/OPA213FPZ.lib)(options "")(descr ""))
+)
