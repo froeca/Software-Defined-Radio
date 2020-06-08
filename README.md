@@ -19,7 +19,7 @@ My project partner, Konrad McClure, and I, had several objectives in mind when d
 
 We designed our reciever to operate in the (5.000 - 10.000 MHz) band. This band was chosen because it is centered around the "40-meter" Ametuar Radio band which supports communication worldwide and is considered one of the most reliable all-season long distance communication bands. We also noticed by experimenting with an online SDR radio that there seemed to be a substantial number of stations avalible in that band. For simplicity sake, we kept the design to just one receiving freqeuncy band.
 
-We chooe our intermediate frequency to be 10.7kHz. This is a pretty standard value
+We choose our intermediate frequency to be 10.7kHz. This is a pretty standard value
 
 ## Hardware
 A block diagram of our SDR reciever is shown below in Figure 1:
