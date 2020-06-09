@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Radio Reciever -- (5-10 MHz)"
-Date "2020-06-05"
+Date "2020-06-09"
 Rev "3a"
 Comp "Walla Walla University -- School of Engineering"
 Comment1 "Partner: Konrad McClure"
@@ -94,7 +94,7 @@ L Device:C C22
 U 1 1 5EA87FFD
 P 9475 5600
 F 0 "C22" V 9223 5600 50  0000 C CNN
-F 1 "220p" V 9314 5600 50  0000 C CNN
+F 1 "150p" V 9314 5600 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 9513 5450 50  0001 C CNN
 F 3 "~" H 9475 5600 50  0001 C CNN
 	1    9475 5600
@@ -105,7 +105,7 @@ L Device:L L2
 U 1 1 5EA8B34C
 P 9875 5600
 F 0 "L2" V 9694 5600 50  0000 C CNN
-F 1 "1.3u" V 9785 5600 50  0000 C CNN
+F 1 "3.6u" V 9785 5600 50  0000 C CNN
 F 2 "Inductor_THT:L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm" H 9875 5600 50  0001 C CNN
 F 3 "~" H 9875 5600 50  0001 C CNN
 	1    9875 5600
@@ -304,7 +304,7 @@ L Device:C C21
 U 1 1 5E9685C5
 P 8125 5600
 F 0 "C21" V 7873 5600 50  0000 C CNN
-F 1 "1n" V 7964 5600 50  0000 C CNN
+F 1 "910p" V 7964 5600 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8163 5450 50  0001 C CNN
 F 3 "~" H 8125 5600 50  0001 C CNN
 	1    8125 5600
@@ -315,7 +315,7 @@ L Device:L L1
 U 1 1 5E9685CB
 P 8525 5600
 F 0 "L1" V 8344 5600 50  0000 C CNN
-F 1 "200n" V 8435 5600 50  0000 C CNN
+F 1 "520n" V 8435 5600 50  0000 C CNN
 F 2 "Inductor_THT:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm" H 8525 5600 50  0001 C CNN
 F 3 "~" H 8525 5600 50  0001 C CNN
 	1    8525 5600
@@ -328,7 +328,7 @@ L Device:C C23
 U 1 1 5E971404
 P 8875 5825
 F 0 "C23" H 8575 5875 50  0000 L CNN
-F 1 "220p" H 8575 5775 50  0000 L CNN
+F 1 "620p" H 8575 5775 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 8913 5675 50  0001 C CNN
 F 3 "~" H 8875 5825 50  0001 C CNN
 	1    8875 5825
@@ -339,7 +339,7 @@ L Device:L L3
 U 1 1 5E971EB0
 P 9125 5825
 F 0 "L3" H 9178 5871 50  0000 L CNN
-F 1 "1.3u" H 9178 5780 50  0000 L CNN
+F 1 "820n" H 9178 5780 50  0000 L CNN
 F 2 "Inductor_THT:L_Toroid_Vertical_L13.0mm_W6.5mm_P5.60mm" H 9125 5825 50  0001 C CNN
 F 3 "~" H 9125 5825 50  0001 C CNN
 	1    9125 5825
@@ -2075,10 +2075,10 @@ F 3 "" H 2150 2775 50  0001 C CNN
 	1    2150 2775
 	1    0    0    -1  
 $EndComp
-Text Notes 8550 6300 0    50   ~ 0
-L2 + L3: 4nH*N^2\n= 18 turns.
-Text Notes 7850 6300 0    50   ~ 0
-L1: 3nH*N^2\n= 8 turns.
+Text Notes 7975 6400 0    50   ~ 0
+L2: T50-6\n4nH*N^2\n= 30 turns.
+Text Notes 7275 6400 0    50   ~ 0
+L1: T50-6\n4nH*N^2\n= 12 turns.
 $Comp
 L Amplifier_Operational:OP179GS U7
 U 1 1 5EE6DC02
@@ -2256,4 +2256,6 @@ F 3 "" H 9850 4050 50  0001 C CNN
 	1    9850 4050
 	1    0    0    -1  
 $EndComp
+Text Notes 8725 6400 0    50   ~ 0
+L3: T37-6\n3nH*N^2\n= 17 turns.
 $EndSCHEMATC

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Radio Reciever -- (5-10 MHz)"
-Date "2020-06-05"
+Date "2020-06-09"
 Rev "3a"
 Comp "Walla Walla University -- School of Engineering"
 Comment1 "Partner: Konrad McClure"
