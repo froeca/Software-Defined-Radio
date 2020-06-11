@@ -1,4 +1,4 @@
-# Cheap Software Defined Radio Project
+# Cheap Software Defined Radio Receiver Project
 
 **Introduction:** This repository covers the design of a simple, low-cost software defined radio (SDR) receiver to be used in conjunction with [Quisk](https://james.ahlstrom.name/quisk/), a free open source SDR software. This project was created in partial fulfillments of ENGR 357 "Engineering Electronics II" at Walla Walla University. I worked with [Konrad McClure](https://github.com/KonradMcClure) to build our (5.000 MHz - 10.000 MHz) radio receiver. For more information on the theory and circuit design, please see the [wiki](https://github.com/froeca/Software-Defined-Radio/wiki).
 
